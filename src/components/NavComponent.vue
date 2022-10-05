@@ -6,31 +6,31 @@
       </div>
       <div id="icone">
         <div class="hover">
-          <img src="../assets/img/home-2.png" alt="" />
+          <img src="../assets/img/home.png" alt="" />
           <p>Home</p>
         </div>
         <div class="hover">
-          <img src="../assets/img/document-2.png" alt="" />
+          <img src="../assets/img/document.png" alt="" />
           <p>Pages</p>
         </div>
         <div class="hover">
-          <img src="../assets/img/printer-2.png" alt="" />
+          <img src="../assets/img/printer.png" alt="" />
           <p>Blog</p>
         </div>
         <div class="hover">
-          <img src="../assets/img/cart-2.png" alt="" />
+          <img src="../assets/img/cart.png" alt="" />
           <p>Shop</p>
         </div>
         <div class="hover">
-          <img src="../assets/img/lab-2.png" alt="" />
+          <img src="../assets/img/lab.png" alt="" />
           <p>Shortcodes</p>
         </div>
         <div class="hover">
-          <img src="../assets/img/chat-2.png" alt="" />
+          <img src="../assets/img/chat.png" alt="" />
           <p>Support</p>
         </div>
         <div class="hover">
-          <img src="../assets/img/envelope-2.png" alt="" />
+          <img src="../assets/img/envelope.png" alt="" />
           <p>Contact</p>
         </div>
       </div>
@@ -46,7 +46,7 @@ export default {
 
 <style scoped lang="scss">
 #container {
-  background-color: aquamarine;
+  background-color: #fefefe;
   nav {
     display: flex;
     justify-content: space-between;
@@ -56,6 +56,9 @@ export default {
       display: flex;
       gap: 20px;
       color: #4e489b;
+    }
+    .hover img {
+      object-position: 0px 32px;
     }
     .hover {
       padding: 5px;

@@ -46,8 +46,32 @@
     <section id="philosophy">
       <div id="contenitore-section">
         <div id="sinistra">
-          <button>Overview</button>
-          <button>Our mission</button>
+          <button id="overview">Overview</button>
+          <button id="mission">Our Mission</button>
+          <p>
+            Our philosophy is learning through play as we offer a stimulating
+            environment for children.
+          </p>
+          <div class="orizzontale">
+            <img src="../assets/img/clock_alt.png" alt="" />
+            <div id="right">
+              <h3>Full Day Session</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                hic deleniti dolorum.
+              </p>
+            </div>
+          </div>
+          <div class="orizzontale">
+            <img src="../assets/img/diagram_alt.png" alt="" />
+            <div id="right">
+              <h3>Varied Classes</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                hic deleniti dolorum.
+              </p>
+            </div>
+          </div>
         </div>
         <div id="destra">hola</div>
       </div>
@@ -115,10 +139,45 @@ p {
   padding-top: 50px;
 }
 #sinistra {
+  flex-basis: 50%;
   background-color: cadetblue;
-  height: 200px;
+  p {
+    font-size: 1.4em;
+  }
+  .orizzontale {
+    display: flex;
+    padding-top: 20px;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .orizzontale img {
+    background-color: #fe6500;
+    border-radius: 50%;
+    flex-basis: 100px;
+  }
+  #right {
+    font-size: 0.7em;
+  }
+  //   .orizzontale {
+  //     display: flex;
+  //   }
+  //   .orizzontale div h3 {
+  //     color: #56509f;
+  //   }
+}
+#overview {
+  background-color: #fe6500;
+  color: #f5f5f5;
+  padding: 5px;
+}
+#mission {
+  background-color: #f5f5f5;
+  color: #554f4c;
+  padding: 5px;
 }
 #destra {
+  flex-basis: 50%;
   background-color: burlywood;
   height: 200px;
 }

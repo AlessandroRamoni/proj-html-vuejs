@@ -162,7 +162,7 @@ export default {
 #contenitore #titolo #welcome p {
   font-size: 1em;
   text-align: center;
-  color: #4e489b;
+  color: #acacac;
   padding-top: 5px;
 }
 #testo {

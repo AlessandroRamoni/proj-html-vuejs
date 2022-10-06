@@ -106,7 +106,7 @@ export default {
 #container #titolo #welcome p {
   font-size: 1em;
   text-align: center;
-  color: #4e489b;
+  color: #acacac;
 }
 .sfere {
   display: flex;
@@ -150,7 +150,7 @@ p {
 }
 #sinistra {
   flex-basis: 50%;
-  background-color: cadetblue;
+  background-color: #f5f5f5;
   #mission {
     margin-left: 15px;
   }

@@ -124,7 +124,7 @@ export default {
 #contenitore #welcome p {
   font-size: 1em;
   text-align: center;
-  color: #4e489b;
+  color: #acacac;
 }
 #welcome {
   padding-top: 30px;

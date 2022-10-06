@@ -26,4 +26,8 @@ export default {
 
 <style lang="scss">
 @import "@/assets/style/standard.scss";
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Open+Sans&display=swap");
+#app {
+  font-family: "Open Sans", sans-serif;
+}
 </style>

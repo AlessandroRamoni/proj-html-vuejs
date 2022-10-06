@@ -54,7 +54,7 @@
         </div>
       </div>
     </section>
-    <section class="tessere">
+    <section id="padding-bottom" class="tessere">
       <div class="card">
         <div class="scheda">
           <h1>Tenderhearts</h1>
@@ -116,7 +116,26 @@
           </ul>
         </div>
         <div id="contenitore-goals-destra">
-          <p>holaaaaaa</p>
+          <div class="mission">
+            <img src="../assets/img/toy.png" alt="" />
+            <h3>Learning & Fun</h3>
+            <p>Praesent modea est gravida node vehicula luctus.</p>
+          </div>
+          <div class="mission">
+            <img src="../assets/img/meal.png" alt="" />
+            <h3>Healthy Meals</h3>
+            <p>Terminal interdum a eleifend maecenas est morbi.</p>
+          </div>
+          <div class="mission">
+            <img src="../assets/img/school.png" alt="" />
+            <h3>Friendly Place</h3>
+            <p>Terminal interdum a eleifend maecenas est morbi.</p>
+          </div>
+          <div class="mission">
+            <img src="../assets/img/shield.png" alt="" />
+            <h3>Children Safety</h3>
+            <p>Praesent modea est gravida node vehicula luctus.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -169,7 +188,7 @@ export default {
   max-width: 800px;
   display: flex;
   gap: 20px;
-  padding-top: 25px;
+  padding-top: 30px;
 }
 .card {
   display: flex;
@@ -214,16 +233,48 @@ export default {
 }
 #goals {
   background-color: #f5f5f5;
+  padding-bottom: 40px;
 }
 #contenitore-goals {
   margin: 0 auto;
   max-width: 800px;
   display: flex;
+  padding-top: 40px;
+}
+#padding-bottom {
+  padding-bottom: 30px;
 }
 #contenitore-goals-sinistra {
   flex-basis: 50%;
 }
-#contenitore-goals-sinistra {
+#contenitore-goals-sinistra p:first-child {
+  color: #4e489b;
+  font-size: 1.3em;
+}
+#contenitore-goals-sinistra p:nth-of-type(2) {
+  color: #8e8e8e;
+  font-size: 0.8em;
+  padding-top: 20px;
+}
+#contenitore-goals-sinistra ul {
+  padding-top: 20px;
+}
+
+#contenitore-goals-sinistra ul li span {
+  font-size: 0.8em;
+  color: #8e8e8e;
+  padding-left: 10px;
+}
+#contenitore-goals-destra {
   flex-basis: 50%;
+  display: flex;
+}
+.mission {
+  text-align: center;
+}
+.mission img {
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 10px;
 }
 </style>

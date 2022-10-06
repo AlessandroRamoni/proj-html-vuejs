@@ -6,6 +6,7 @@
     <StatisticsComponent />
     <OurClassesComponent />
     <BambiniComponent />
+    <BoardComponent />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import MainComponent from "@/components/MainComponent.vue";
 import StatisticsComponent from "@/components/StatisticsComponent.vue";
 import OurClassesComponent from "@/components/OurClassesComponent.vue";
 import BambiniComponent from "@/components/BambiniComponent.vue";
+import BoardComponent from "@/components/BoardComponent.vue";
 
 export default {
   name: "App",
@@ -26,6 +28,7 @@ export default {
     StatisticsComponent,
     OurClassesComponent,
     BambiniComponent,
+    BoardComponent,
   },
 };
 </script>

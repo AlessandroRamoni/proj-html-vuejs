@@ -7,6 +7,7 @@
     <OurClassesComponent />
     <BambiniComponent />
     <BoardComponent />
+    <OurStaffComponent />
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import StatisticsComponent from "@/components/StatisticsComponent.vue";
 import OurClassesComponent from "@/components/OurClassesComponent.vue";
 import BambiniComponent from "@/components/BambiniComponent.vue";
 import BoardComponent from "@/components/BoardComponent.vue";
+import OurStaffComponent from "@/components/OurStaffComponent.vue";
 
 export default {
   name: "App",
@@ -29,6 +31,7 @@ export default {
     OurClassesComponent,
     BambiniComponent,
     BoardComponent,
+    OurStaffComponent,
   },
 };
 </script>

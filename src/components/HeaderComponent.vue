@@ -52,10 +52,6 @@ export default {
         font-size: 0.8em;
       }
     }
-    // div > h2,
-    // div > button {
-    //   line-height: 80px;
-    // }
   }
 }
 </style>

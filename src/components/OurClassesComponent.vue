@@ -192,6 +192,7 @@ export default {
 }
 .card {
   display: flex;
+  //   flex-wrap: wrap;
 }
 .tessere .card .scheda {
   background-color: #56509f;

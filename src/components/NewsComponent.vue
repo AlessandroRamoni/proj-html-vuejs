@@ -53,6 +53,7 @@
         <span>Games, General</span>
       </div>
     </div>
+    <button><a href="#">GO TO BLOG ></a></button>
   </div>
 </template>
 
@@ -65,6 +66,7 @@ export default {
 <style scoped lang="scss">
 #contenitore {
   padding-top: 50px;
+  text-align: center;
 }
 #contenitore #titolo #welcome h1 {
   text-align: center;
@@ -122,5 +124,13 @@ export default {
 }
 .data {
   margin-left: 0 !important;
+}
+button {
+  color: #ffffff;
+  background-color: #fe6500;
+  padding: 12px;
+  font-size: 0.7em;
+  font-weight: 600;
+  margin-top: 30px;
 }
 </style>

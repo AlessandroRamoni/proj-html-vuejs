@@ -3,6 +3,7 @@
     <NavComponent />
     <HeaderComponent />
     <MainComponent />
+    <StatisticsComponent />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import NavComponent from "@/components/NavComponent.vue";
 import HeaderComponent from "@/components/HeaderComponent.vue";
 import MainComponent from "@/components/MainComponent.vue";
+import StatisticsComponent from "@/components/StatisticsComponent.vue";
 
 export default {
   name: "App",
@@ -17,6 +19,7 @@ export default {
     NavComponent,
     HeaderComponent,
     MainComponent,
+    StatisticsComponent,
   },
 };
 </script>

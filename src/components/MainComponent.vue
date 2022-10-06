@@ -73,7 +73,16 @@
             </div>
           </div>
         </div>
-        <div id="destra">hola</div>
+        <div id="destra">
+          <div id="foto-grande">
+            <img src="../assets/img/gallery_01.jpg" alt="" />
+          </div>
+          <div id="slider">
+            <img src="../assets/img/gallery_01-690x506.jpg" alt="" />
+            <img src="../assets/img/gallery_07-690x506.jpg" alt="" />
+            <img src="../assets/img/gallery_08-690x506.jpg" alt="" />
+          </div>
+        </div>
       </div>
     </section>
   </div>
@@ -137,18 +146,31 @@ p {
   max-width: 800px;
   margin: 0 auto;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 #sinistra {
   flex-basis: 50%;
   background-color: cadetblue;
-  p {
+  #mission {
+    margin-left: 15px;
+  }
+  > p {
     font-size: 1.4em;
+    margin-top: 20px;
   }
   .orizzontale {
     display: flex;
     padding-top: 20px;
     gap: 20px;
     align-items: center;
+  }
+  .orizzontale #right p {
+    color: #554f4c;
+    font-size: 1.2em;
+  }
+  .orizzontale #right h3 {
+    font-size: 1.8em;
+    color: #4e489b;
   }
 
   .orizzontale img {
@@ -180,5 +202,12 @@ p {
   flex-basis: 50%;
   background-color: burlywood;
   height: 200px;
+  #foto-grande {
+    height: 215px;
+  }
+  #slider {
+    display: flex;
+    max-width: 133.333px;
+  }
 }
 </style>

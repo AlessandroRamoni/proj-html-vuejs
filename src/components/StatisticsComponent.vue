@@ -2,22 +2,22 @@
   <div id="contenitore-immagine">
     <div id="contenitore">
       <div class="statistiche">
-        <span>507</span>
+        <div>507</div>
         <h3>Our Pupils</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
       <div class="statistiche">
-        <span>235</span>
+        <div>235</div>
         <h3>Teaching Hours</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
       <div class="statistiche">
-        <span>100%</span>
+        <div>100%</div>
         <h3>Satisfied Parents</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
       <div class="statistiche">
-        <span>1050</span>
+        <div>1050</div>
         <h3>Meals Per Year</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
@@ -48,12 +48,16 @@ export default {
   .statistiche {
     color: #ffffff;
     text-align: center;
-    span {
+    div {
       border: 1px solid #ffffff;
       border-radius: 50%;
       padding: 20px;
-      line-height: 40px;
       font-size: 1.7em;
+      font-weight: 100;
+      width: 100px;
+      height: 100px;
+      line-height: 2.1;
+      margin-left: 50px;
     }
     h3 {
       padding-top: 30px;

@@ -4,6 +4,7 @@
     <HeaderComponent />
     <MainComponent />
     <StatisticsComponent />
+    <OurClassesComponent />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import NavComponent from "@/components/NavComponent.vue";
 import HeaderComponent from "@/components/HeaderComponent.vue";
 import MainComponent from "@/components/MainComponent.vue";
 import StatisticsComponent from "@/components/StatisticsComponent.vue";
+import OurClassesComponent from "@/components/OurClassesComponent.vue";
 
 export default {
   name: "App",
@@ -20,6 +22,7 @@ export default {
     HeaderComponent,
     MainComponent,
     StatisticsComponent,
+    OurClassesComponent,
   },
 };
 </script>

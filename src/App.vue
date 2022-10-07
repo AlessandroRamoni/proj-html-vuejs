@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <NavComponent />
+    <HeaderDinamico :cards="immagini" />
     <HeaderComponent />
     <MainComponent />
     <StatisticsComponent />
@@ -15,6 +16,7 @@
 
 <script>
 import NavComponent from "@/components/NavComponent.vue";
+import HeaderDinamico from "@/components/HeaderDinamico.vue";
 import HeaderComponent from "@/components/HeaderComponent.vue";
 import MainComponent from "@/components/MainComponent.vue";
 import StatisticsComponent from "@/components/StatisticsComponent.vue";
@@ -25,10 +27,18 @@ import OurStaffComponent from "@/components/OurStaffComponent.vue";
 import FeedbackComponent from "@/components/FeedbackComponent.vue";
 import NewsComponent from "@/components/NewsComponent.vue";
 
+import { immagini } from "../src/data";
+
 export default {
   name: "App",
+  data() {
+    return {
+      immagini,
+    };
+  },
   components: {
     NavComponent,
+    HeaderDinamico,
     HeaderComponent,
     MainComponent,
     StatisticsComponent,

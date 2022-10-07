@@ -4,6 +4,7 @@
       <div id="welcome">
         <h1>Our Classes</h1>
         <p>Our preschool program has four dedicated classes</p>
+        <img src="../assets/img/header_divider.png" alt="" />
       </div>
     </section>
     <section id="testo">
@@ -27,7 +28,7 @@
         <div class="scheda">
           <h1>Little Lambs</h1>
           <span>Class name</span>
-          <div class="eta">
+          <!-- <div class="eta">
             <div>
               <p>12-24</p>
               <p>Month olds</p>
@@ -36,7 +37,7 @@
               <p>9</p>
               <p>Class size</p>
             </div>
-          </div>
+          </div> -->
         </div>
         <div class="immagine">
           <img src="../assets/img/class_01-690x506.jpg" alt="" />
@@ -117,22 +118,30 @@
         </div>
         <div id="contenitore-goals-destra">
           <div class="mission">
-            <img src="../assets/img/toy.png" alt="" />
+            <div>
+              <img src="../assets/img/toy.png" alt="" />
+            </div>
             <h3>Learning & Fun</h3>
             <p>Praesent modea est gravida node vehicula luctus.</p>
           </div>
           <div class="mission">
-            <img src="../assets/img/meal.png" alt="" />
+            <div>
+              <img src="../assets/img/meal.png" alt="" />
+            </div>
             <h3>Healthy Meals</h3>
             <p>Terminal interdum a eleifend maecenas est morbi.</p>
           </div>
           <div class="mission">
-            <img src="../assets/img/school.png" alt="" />
+            <div>
+              <img src="../assets/img/school.png" alt="" />
+            </div>
             <h3>Friendly Place</h3>
             <p>Terminal interdum a eleifend maecenas est morbi.</p>
           </div>
           <div class="mission">
-            <img src="../assets/img/shield.png" alt="" />
+            <div>
+              <img src="../assets/img/shield.png" alt="" />
+            </div>
             <h3>Children Safety</h3>
             <p>Praesent modea est gravida node vehicula luctus.</p>
           </div>
@@ -154,6 +163,13 @@ export default {
   margin: 0 auto;
   max-width: 800px;
 }
+#welcome {
+  text-align: center;
+}
+#welcome img {
+  padding-top: 20px;
+}
+
 #contenitore #titolo #welcome h1 {
   text-align: center;
   color: #4e489b;
@@ -246,7 +262,7 @@ export default {
   padding-bottom: 30px;
 }
 #contenitore-goals-sinistra {
-  flex-basis: 50%;
+  width: 50%;
 }
 #contenitore-goals-sinistra p:first-child {
   color: #4e489b;
@@ -260,6 +276,10 @@ export default {
 #contenitore-goals-sinistra ul {
   padding-top: 20px;
 }
+#contenitore-goals-sinistra ul li {
+  display: flex;
+  margin-top: 10px;
+}
 
 #contenitore-goals-sinistra ul li span {
   font-size: 0.8em;
@@ -267,15 +287,34 @@ export default {
   padding-left: 10px;
 }
 #contenitore-goals-destra {
-  flex-basis: 50%;
   display: flex;
+  flex-wrap: wrap;
+  width: 50%;
 }
 .mission {
+  width: calc(100% / 2);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mission h3 {
+  font-size: 1.3em;
+  color: #4e489b;
+}
+.mission p {
+  font-size: 0.8em;
+  color: #8e8e8e;
+  padding-top: 10px;
+}
+.mission div {
+  width: 70px;
 }
 .mission img {
   background-color: #ffffff;
   border-radius: 50%;
   padding: 10px;
+  object-fit: none;
+  width: 100%;
 }
 </style>

@@ -13,6 +13,7 @@
     <NewsComponent />
     <AddGoogleMap />
     <ContactComponent />
+    <FooterComponent />
   </div>
 </template>
 
@@ -30,6 +31,7 @@ import FeedbackComponent from "@/components/FeedbackComponent.vue";
 import NewsComponent from "@/components/NewsComponent.vue";
 import AddGoogleMap from "@/components/AddGoogleMap.vue";
 import ContactComponent from "@/components/ContactComponent.vue";
+import FooterComponent from "@/components/FooterComponent.vue";
 
 import { immagini } from "../src/data";
 
@@ -54,6 +56,7 @@ export default {
     NewsComponent,
     AddGoogleMap,
     ContactComponent,
+    FooterComponent,
   },
 };
 </script>

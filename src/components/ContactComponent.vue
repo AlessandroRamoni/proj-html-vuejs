@@ -60,6 +60,7 @@ export default {
 #contenitore {
   padding-top: 50px;
   text-align: center;
+  padding-bottom: 50px;
 }
 #contenitore #titolo #welcome h1 {
   text-align: center;
@@ -73,6 +74,7 @@ export default {
 }
 .sfere {
   display: flex;
+  gap: 30px;
   margin: 0 auto;
   max-width: 800px;
   padding-top: 50px;

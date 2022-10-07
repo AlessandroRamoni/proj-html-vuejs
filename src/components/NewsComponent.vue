@@ -4,6 +4,7 @@
       <div id="welcome">
         <h1>What's New</h1>
         <p>Keep up to date with the latest news</p>
+        <img src="../assets/img/header_divider.png" alt="" />
       </div>
     </section>
     <div id="contenitore-cards">

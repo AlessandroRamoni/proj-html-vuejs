@@ -11,6 +11,8 @@
     <OurStaffComponent />
     <FeedbackComponent />
     <NewsComponent />
+    <AddGoogleMap />
+    <ContactComponent />
   </div>
 </template>
 
@@ -26,6 +28,8 @@ import BoardComponent from "@/components/BoardComponent.vue";
 import OurStaffComponent from "@/components/OurStaffComponent.vue";
 import FeedbackComponent from "@/components/FeedbackComponent.vue";
 import NewsComponent from "@/components/NewsComponent.vue";
+import AddGoogleMap from "@/components/AddGoogleMap.vue";
+import ContactComponent from "@/components/ContactComponent.vue";
 
 import { immagini } from "../src/data";
 
@@ -48,6 +52,8 @@ export default {
     OurStaffComponent,
     FeedbackComponent,
     NewsComponent,
+    AddGoogleMap,
+    ContactComponent,
   },
 };
 </script>

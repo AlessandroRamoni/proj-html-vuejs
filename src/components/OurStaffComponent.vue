@@ -3,6 +3,7 @@
     <div id="welcome">
       <h1>Meet Our Staff</h1>
       <p>With education and experience in early childhood care</p>
+      <img src="../assets/img/header_divider.png" alt="" />
     </div>
     <section id="testo">
       <div id="sinistra">
@@ -128,6 +129,7 @@ export default {
 }
 #welcome {
   padding-top: 30px;
+  text-align: center;
 }
 #testo {
   margin: 0 auto;

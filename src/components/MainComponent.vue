@@ -4,6 +4,7 @@
       <div id="welcome">
         <h1>Welcome to Fable</h1>
         <p>Fable daycare, preschool and kindergarten</p>
+        <img src="../assets/img/header_divider.png" alt="" />
       </div>
     </section>
     <section class="sfere">
@@ -97,6 +98,9 @@ export default {
 <style scoped lang="scss">
 #container {
   padding-top: 50px;
+}
+#welcome {
+  text-align: center;
 }
 #container #titolo #welcome h1 {
   text-align: center;

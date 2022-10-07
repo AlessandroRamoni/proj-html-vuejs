@@ -111,6 +111,7 @@ export default {
 <style scoped lang="scss">
 #contenitore {
   background-image: url(../assets/img/pattern.png);
+  height: 400px;
 }
 footer {
   margin: 0 auto;
@@ -119,6 +120,9 @@ footer {
 #contenitore-footer {
   display: flex;
   gap: 20px;
+  h3 {
+    font-weight: 800;
+  }
 }
 #about-us {
   color: #dad6d6;
@@ -146,13 +150,15 @@ footer {
   li {
     border: 1px solid #a8a1a1;
     margin-top: 10px;
+    padding: 8px;
   }
   li:first-child {
     margin-top: 0px;
   }
   a {
-    padding: 10px;
-    font-size: 0.8em;
+    padding: 10px 10px 10px 7px;
+    font-size: 0.7em;
+    font-weight: 600;
   }
 }
 #our-features {

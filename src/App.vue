@@ -13,6 +13,7 @@
     <AddGoogleMap />
     <ContactComponent />
     <FooterComponent />
+    <FooterNavComponent :cards="icone" />
   </div>
 </template>
 
@@ -30,14 +31,17 @@ import NewsComponent from "@/components/NewsComponent.vue";
 import AddGoogleMap from "@/components/AddGoogleMap.vue";
 import ContactComponent from "@/components/ContactComponent.vue";
 import FooterComponent from "@/components/FooterComponent.vue";
+import FooterNavComponent from "@/components/FooterNavComponent.vue";
 
 import { immagini } from "../src/data";
+import { icone } from "../src/data";
 
 export default {
   name: "App",
   data() {
     return {
       immagini,
+      icone,
     };
   },
   components: {
@@ -54,6 +58,7 @@ export default {
     AddGoogleMap,
     ContactComponent,
     FooterComponent,
+    FooterNavComponent,
   },
 };
 </script>

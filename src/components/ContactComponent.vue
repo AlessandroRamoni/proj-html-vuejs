@@ -62,6 +62,9 @@ export default {
   text-align: center;
   padding-bottom: 50px;
 }
+#welcome img {
+  padding-top: 20px;
+}
 #contenitore #titolo #welcome h1 {
   text-align: center;
   color: #4e489b;
@@ -114,6 +117,7 @@ a {
 }
 #contenitore-form-dx {
   width: 50%;
+  height: 139px;
   input {
     border: 2px solid #c5c3c3;
     width: 100%;
@@ -122,6 +126,12 @@ a {
     padding: 5px;
     margin-top: 10px;
   }
+}
+input::placeholder {
+  color: #969393;
+  position: absolute;
+  top: 5px;
+  left: 5px;
 }
 button {
   background-color: #fe6500;

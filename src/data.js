@@ -35,3 +35,31 @@ export const immagini = [
         immagine: "envelope-2.png",
       }
 ]
+
+export const icone = [
+  {
+    id: 1,
+    nome: "Behance",
+    immagine: "behance.png",
+  },
+  {
+      id: 2,
+      nome: "Dribbble",
+      immagine: "dribbble.png",
+    },
+    {
+      id: 3,
+      nome: "Envato",
+      immagine: "envato.png",
+    },
+    {
+        id: 4,
+        nome: "Facebook",
+        immagine: "facebook.png",
+      },
+      {
+        id: 5,
+        nome: "Twitter",
+        immagine: "twitter.png",
+      }
+]

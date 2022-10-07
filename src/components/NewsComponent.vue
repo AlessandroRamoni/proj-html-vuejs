@@ -69,6 +69,9 @@ export default {
   padding-top: 50px;
   text-align: center;
 }
+#welcome img {
+  padding-top: 20px;
+}
 #contenitore #titolo #welcome h1 {
   text-align: center;
   color: #4e489b;

@@ -2,36 +2,36 @@ export const immagini = [
     {
       id: 1,
       nome: "Home",
-      immagine: "home.png",
+      immagine: "home-2.png",
     },
     {
         id: 2,
         nome: "Pages",
-        immagine: "document.png",
+        immagine: "document-2.png",
       },
       {
         id: 3,
         nome: "Blog",
-        immagine: "printer.png",
+        immagine: "printer-2.png",
       },
       {
         id: 4,
         nome: "Shop",
-        immagine: "cart.png",
+        immagine: "cart-2.png",
       },
       {
         id: 5,
         nome: "Shortcodes",
-        immagine: "lab.png",
+        immagine: "lab-2.png",
       },
       {
         id: 6,
         nome: "Support",
-        immagine: "chat.png",
+        immagine: "chat-2.png",
       },
       {
         id: 7,
         nome: "Contact",
-        immagine: "envelope.png",
+        immagine: "envelope-2.png",
       }
 ]

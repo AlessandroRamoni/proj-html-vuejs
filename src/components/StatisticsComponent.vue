@@ -58,6 +58,7 @@ export default {
       height: 100px;
       line-height: 2.1;
       margin-left: 50px;
+      object-fit: none;
     }
     h3 {
       padding-top: 30px;

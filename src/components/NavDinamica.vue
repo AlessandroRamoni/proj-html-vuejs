@@ -33,7 +33,7 @@ export default {
 
 <style scoped lang="scss">
 #logo {
-  width: 100px;
+  width: 130px;
   img {
     width: 100%;
     display: block;

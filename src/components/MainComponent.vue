@@ -8,39 +8,47 @@
       </div>
     </section>
     <section class="sfere">
-      <div>
-        <img src="../assets/img/schoolbag_alt.png" alt="" />
+      <div class="bolla">
+        <div class="contenitore-bolla">
+          <img src="../assets/img/schoolbag_alt.png" alt="" />
+        </div>
         <h4>Morbi Etos</h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod esse,
-          aliquid animi eius aspernatur aperiam nesciunt.
+          Praesent interdum est gravida vehicula est node maecenas loareet morbi
+          a dosis luctus novum est praesent.
         </p>
       </div>
 
-      <div>
-        <img id="stroller" src="../assets/img/stroller_alt.png" alt="" />
+      <div class="bolla">
+        <div class="contenitore-bolla">
+          <img id="stroller" src="../assets/img/stroller_alt.png" alt="" />
+        </div>
         <h4>Congue Gravida</h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod esse,
-          aliquid animi eius aspernatur aperiam nesciunt.
+          Elipsis magna a terminal nulla elementum morbi elite forte maecenas
+          est magna etos interdum vitae est.
         </p>
       </div>
 
-      <div>
-        <img src="../assets/img/globe_alt.png" alt="" />
+      <div class="bolla">
+        <div class="contenitore-bolla">
+          <img src="../assets/img/globe_alt.png" alt="" />
+        </div>
         <h4>Maecenas Node</h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod esse,
-          aliquid animi eius aspernatur aperiam nesciunt.
+          Praesent interdum est gravida vehicula est node maecenas loareet morbi
+          a dosis luctus novum est praesent.
         </p>
       </div>
 
-      <div>
-        <img id="bell" src="../assets/img/bell_alt.png" alt="" />
+      <div class="bolla">
+        <div class="contenitore-bolla">
+          <img id="bell" src="../assets/img/bell_alt.png" alt="" />
+        </div>
         <h4>Praesent Morbi</h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod esse,
-          aliquid animi eius aspernatur aperiam nesciunt.
+          Elipsis magna a terminal nulla elementum morbi elite forte maecenas
+          est magna etos interdum vitae est.
         </p>
       </div>
     </section>
@@ -58,8 +66,8 @@
             <div id="right">
               <h3>Full Day Session</h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
-                hic deleniti dolorum.
+                Pulvinar est metro ligula blandit maecenas retrum gravida
+                cuprum. Maecenas node estibulum.
               </p>
             </div>
           </div>
@@ -68,8 +76,8 @@
             <div id="right">
               <h3>Varied Classes</h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
-                hic deleniti dolorum.
+                Pulvinar est metro ligula blandit maecenas retrum gravida
+                cuprum. Maecenas node estibulum.
               </p>
             </div>
           </div>
@@ -102,13 +110,17 @@ export default {
 #welcome {
   text-align: center;
 }
+
+#welcome img {
+  padding-top: 20px;
+}
 #container #titolo #welcome h1 {
   text-align: center;
   color: #4e489b;
   font-size: 2.4em;
 }
 #container #titolo #welcome p {
-  font-size: 1em;
+  font-size: 0.95em;
   text-align: center;
   color: #acacac;
 }
@@ -117,24 +129,40 @@ export default {
   margin: 0 auto;
   max-width: 800px;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.sfere div img {
+.contenitore-bolla {
+  width: 120px;
+  height: 120px;
+}
+.sfere .bolla img {
   background-color: #fe6500;
-  object-position: center;
   border-radius: 50%;
   padding: 20px;
+  width: 100%;
+  object-fit: none;
 }
-.sfere div h4,
+
+.sfere h4 {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.sfere p {
+  font-size: 0.8em;
+}
+
+.sfere .bolla h4,
 p {
   color: #56509f;
   padding-top: 10px;
 }
 #stroller,
-#bell {
+s #bell {
   background-color: #56509f;
 }
-.sfere div {
+.sfere .bolla {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -161,6 +189,7 @@ p {
   > p {
     font-size: 1.4em;
     margin-top: 20px;
+    font-weight: 500;
   }
   .orizzontale {
     display: flex;
@@ -169,7 +198,7 @@ p {
     align-items: center;
   }
   .orizzontale #right p {
-    color: #554f4c;
+    color: #746d69;
     font-size: 1.2em;
   }
   .orizzontale #right h3 {
@@ -181,6 +210,7 @@ p {
     background-color: #fe6500;
     border-radius: 50%;
     flex-basis: 100px;
+    object-fit: none;
   }
   #right {
     font-size: 0.7em;

@@ -3,7 +3,7 @@
     <div id="contenitore-card">
       <img :src="require(`@/assets/img/${immagine}`)" alt="" />
 
-      <!-- <p>{{ nome }}</p> -->
+      <p>{{ nome }}</p>
     </div>
   </div>
 </template>

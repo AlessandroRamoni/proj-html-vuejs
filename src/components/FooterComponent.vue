@@ -30,10 +30,72 @@
             Nunc gravida rutrum mauris vehin hasellus ac pretium augue vivamul
             lacus ligul mattis ac vene:
           </p>
+          <ul>
+            <li>
+              <img src="../assets/img/style_4_alt.png" alt="" />
+              <span>Friendly and welcoming place</span>
+            </li>
+            <li>
+              <img src="../assets/img/style_4_alt.png" alt="" />
+              <span>Science and art classes</span>
+            </li>
+            <li>
+              <img src="../assets/img/style_4_alt.png" alt="" />
+              <span>Positive learning environment</span>
+            </li>
+            <li>
+              <img src="../assets/img/style_4_alt.png" alt="" />
+              <span>Educational field trips</span>
+            </li>
+            <li>
+              <img src="../assets/img/style_4_alt.png" alt="" />
+              <span>Writing and reading classes</span>
+            </li>
+            <li>
+              <img src="../assets/img/style_4_alt.png" alt="" />
+              <span>Science and art classes</span>
+            </li>
+          </ul>
         </div>
         <div id="recent-posts">
           <h3>RECENT POSTS</h3>
           <hr />
+          <div class="contenitore-card">
+            <div class="contenitore-immagine">
+              <img src="../assets/img/blog_09-150x150.jpg" alt="" />
+            </div>
+            <div class="contenitore-testo">
+              <p>Drawing and Painting Lessons</p>
+              <div>
+                <img src="../assets/img/date_footer.png" alt="" />
+                <span>October 03, 2014</span>
+              </div>
+            </div>
+          </div>
+          <div class="contenitore-card">
+            <div class="contenitore-immagine">
+              <img src="../assets/img/blog_10-150x150.jpg" alt="" />
+            </div>
+            <div class="contenitore-testo">
+              <p>Fall Parents Meeting Day</p>
+              <div>
+                <img src="../assets/img/date_footer.png" alt="" />
+                <span>October 03, 2014</span>
+              </div>
+            </div>
+          </div>
+          <div class="contenitore-card">
+            <div class="contenitore-immagine">
+              <img src="../assets/img/blog_08-150x150.jpg" alt="" />
+            </div>
+            <div class="contenitore-testo">
+              <p>Birthday In kindergarten</p>
+              <div>
+                <img src="../assets/img/date_footer.png" alt="" />
+                <span>September 20, 2014</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
@@ -49,7 +111,6 @@ export default {
 <style scoped lang="scss">
 #contenitore {
   background-image: url(../assets/img/pattern.png);
-  height: 400px;
 }
 footer {
   margin: 0 auto;
@@ -104,9 +165,48 @@ footer {
     padding-top: 30px;
     font-size: 0.9em;
   }
+  ul {
+    padding-top: 20px;
+  }
+  ul li {
+    display: flex;
+    margin-bottom: 5px;
+  }
+  ul li span {
+    font-size: 0.6em;
+    padding-left: 10px;
+  }
 }
 #recent-posts {
   color: #dad6d6;
   width: 25%;
+  h3 {
+    padding-top: 30px;
+  }
+  .contenitore-card {
+    padding-top: 30px;
+    display: flex;
+    gap: 10px;
+  }
+  .contenitore-immagine {
+    width: 100px;
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+  .contenitore-testo div {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+  }
+
+  .contenitore-testo p {
+    font-size: 0.9em;
+  }
+  span {
+    padding-left: 10px;
+    font-size: 0.5em;
+  }
 }
 </style>

@@ -54,6 +54,7 @@ export default {
     max-width: 800px;
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     padding-top: 18px;
     h2 {
       font-size: 1.7em;

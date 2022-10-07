@@ -24,11 +24,15 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding-top: 20px;
+    padding-top: 18px;
     button {
       border: 2px solid #ffffff;
       padding: 10px;
       font-size: 0.8em;
+    }
+    h2 {
+      font-size: 1.7em;
+      font-weight: 100;
     }
   }
 }

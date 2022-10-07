@@ -123,13 +123,16 @@ export default {
   font-size: 2.4em;
 }
 #contenitore #welcome p {
-  font-size: 1em;
+  font-size: 0.95em;
   text-align: center;
   color: #acacac;
 }
 #welcome {
   padding-top: 30px;
   text-align: center;
+}
+#welcome img {
+  padding-top: 20px;
 }
 #testo {
   margin: 0 auto;
@@ -155,6 +158,7 @@ export default {
   max-width: 800px;
   padding-top: 40px;
 }
+
 #cards .contenitore-cards .card {
   width: 50%;
   display: flex;

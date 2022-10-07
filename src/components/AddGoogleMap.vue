@@ -1,68 +1,49 @@
 <template>
-  <div>
-    <div>
-      <h2>Vue Js Search and Add Marker</h2>
-      <label>
-        <gmap-autocomplete @place_changed="initMarker"></gmap-autocomplete>
-        <button @click="addLocationMarker">Add</button>
-      </label>
-      <br />
+  <div id="contenitore">
+    <div class="mapouter">
+      <div class="gmap_canvas">
+        <iframe
+          width="1340"
+          height="300"
+          id="gmap_canvas"
+          src="https://maps.google.com/maps?q=28041%20Arona&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+        ></iframe
+        ><a href="https://fmovies-online.net">fmovies</a>
+        <br />
+
+        <a href="https://www.embedgooglemap.net"
+          >interactive google map for website</a
+        >
+      </div>
     </div>
-    <br />
-    <gmap-map :zoom="14" :center="center" style="width: 100%; height: 600px">
-      <gmap-marker
-        :key="index"
-        v-for="(m, index) in locationMarkers"
-        :position="m.position"
-        @click="center = m.position"
-      ></gmap-marker>
-    </gmap-map>
   </div>
 </template>
  
 <script>
 export default {
   name: "AddGoogleMap",
-  data() {
-    return {
-      center: {
-        lat: 39.7837304,
-        lng: -100.4458825,
-      },
-      locationMarkers: [],
-      locPlaces: [],
-      existingPlace: null,
-    };
-  },
-
-  mounted() {
-    this.locateGeoLocation();
-  },
-
-  methods: {
-    initMarker(loc) {
-      this.existingPlace = loc;
-    },
-    addLocationMarker() {
-      if (this.existingPlace) {
-        const marker = {
-          lat: this.existingPlace.geometry.location.lat(),
-          lng: this.existingPlace.geometry.location.lng(),
-        };
-        this.locationMarkers.push({ position: marker });
-        this.locPlaces.push(this.existingPlace);
-        this.center = marker;
-        this.existingPlace = null;
-      }
-    },
-    locateGeoLocation: function () {
-      navigator.geolocation.getCurrentPosition((res) => {
-        this.center = {
-          lat: res.coords.latitude,
-          lng: res.coords.longitude,
-        };
-      });
-    },
-  },
 };
 </script>
+
+<style scoped lang="scss">
+#contenitore {
+  padding-top: 50px;
+}
+
+.mapuoter {
+  position: relative;
+  text-align: right;
+  height: 400px;
+  width: 1340px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 400px;
+  width: 1340px;
+}
+</style>

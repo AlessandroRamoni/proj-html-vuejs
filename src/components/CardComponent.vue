@@ -2,7 +2,6 @@
   <div id="contenitore">
     <div id="contenitore-card">
       <img :src="require(`@/assets/img/${immagine}`)" alt="" />
-
       <p>{{ nome }}</p>
     </div>
   </div>
@@ -20,10 +19,17 @@ export default {
 </script>
 
 <style scoped lang="scss">
-#contenitore {
-  display: flex;
-}
 #contenitore-card {
-  flex-basis: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  p {
+    color: #4e489b;
+  }
+}
+#contenitore-card:hover {
+  background-color: #fd6500;
 }
 </style>

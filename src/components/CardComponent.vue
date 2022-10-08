@@ -30,11 +30,11 @@ export default {
     padding-top: 5px;
   }
 }
-#contenitore-card img {
-  opacity: 1;
-  color: #4e489b;
-  filter: grayscale(50%);
+#contenitore #contenitore-card img:hover {
+  background-color: #fd6500;
+  color: #fd6500;
 }
+
 #contenitore-card:hover {
   background-color: #fd6500;
   p {

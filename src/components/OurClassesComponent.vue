@@ -52,7 +52,7 @@
           <div class="eta">
             <div>
               <p>2-3</p>
-              <p>Years ld</p>
+              <p>Years olds</p>
             </div>
             <div>
               <p>12</p>
@@ -282,6 +282,17 @@ export default {
 .eta div {
   flex-basis: 50%;
 }
+.eta div p:last-child {
+  color: rgb(216, 207, 207);
+  font-size: 0.8em;
+  font-weight: 800;
+  padding-top: 5px;
+}
+
+.eta div p:first-child {
+  font-weight: 600;
+}
+
 #goals {
   background-color: #f5f5f5;
   padding-bottom: 40px;

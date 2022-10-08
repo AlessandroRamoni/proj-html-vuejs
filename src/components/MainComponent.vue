@@ -234,14 +234,14 @@ s #bell {
 }
 #destra {
   flex-basis: 50%;
-  background-color: burlywood;
-  height: 200px;
   #foto-grande {
-    height: 215px;
+    width: 100%;
   }
+
   #slider {
     display: flex;
-    max-width: 133.333px;
+    gap: 5px;
+    max-width: calc(100% / 3 - 3px);
   }
 }
 </style>

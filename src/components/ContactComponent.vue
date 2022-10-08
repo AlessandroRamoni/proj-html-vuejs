@@ -58,7 +58,6 @@ export default {
 
 <style scoped lang="scss">
 #contenitore {
-  padding-top: 50px;
   text-align: center;
   padding-bottom: 50px;
 }

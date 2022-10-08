@@ -20,7 +20,7 @@
         <hr />
         <img src="../assets/img/author.png" alt="" />
         <span>Anna Brown</span>
-        <img src="../assets/img/category.png" alt="" />
+        <img class="category" src="../assets/img/category.png" alt="" />
         <span>Events, Fun</span>
       </div>
       <div class="card">
@@ -35,7 +35,7 @@
         <hr />
         <img src="../assets/img/author.png" alt="" />
         <span>Anna Brown</span>
-        <img src="../assets/img/category.png" alt="" />
+        <img class="category" src="../assets/img/category.png" alt="" />
         <span>Dance, Education</span>
       </div>
       <div class="card">
@@ -50,7 +50,7 @@
         <hr />
         <img src="../assets/img/author.png" alt="" />
         <span>Anna Brown</span>
-        <img src="../assets/img/category.png" alt="" />
+        <img class="category" src="../assets/img/category.png" alt="" />
         <span>Games, General</span>
       </div>
     </div>
@@ -136,5 +136,8 @@ button {
   font-size: 0.7em;
   font-weight: 600;
   margin-top: 30px;
+}
+.category {
+  margin-left: 10px;
 }
 </style>

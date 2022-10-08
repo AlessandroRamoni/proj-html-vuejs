@@ -63,3 +63,24 @@ export const icone = [
         immagine: "twitter.png",
       }
 ]
+
+export const fotografie = [
+  {
+      percorso: "gallery_01-690x506.jpg",
+      nome: 'Svezia',
+      description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam.'
+  },
+
+  {
+      percorso: "gallery_08-690x506.jpg",
+      nome: 'Perù',
+      description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam.'
+  },
+
+  {
+      percorso: "gallery_07-690x506.jpg",
+      nome: 'Chile',
+      description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam.'
+  },
+ 
+];

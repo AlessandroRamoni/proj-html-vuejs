@@ -23,12 +23,13 @@
         </p>
       </div>
     </section>
+    <!-- prime due tessere -->
     <section class="tessere">
       <div class="card">
         <div class="scheda">
           <h1>Little Lambs</h1>
           <span>Class name</span>
-          <!-- <div class="eta">
+          <div class="eta">
             <div>
               <p>12-24</p>
               <p>Month olds</p>
@@ -37,7 +38,7 @@
               <p>9</p>
               <p>Class size</p>
             </div>
-          </div> -->
+          </div>
         </div>
         <div class="immagine">
           <img src="../assets/img/class_01-690x506.jpg" alt="" />
@@ -48,6 +49,16 @@
         <div class="scheda">
           <h1>Bouncy Bears</h1>
           <span>Class name</span>
+          <div class="eta">
+            <div>
+              <p>2-3</p>
+              <p>Years ld</p>
+            </div>
+            <div>
+              <p>12</p>
+              <p>Class size</p>
+            </div>
+          </div>
         </div>
         <div class="immagine">
           <img src="../assets/img/class_02-690x506.jpg" alt="" />
@@ -55,11 +66,22 @@
         </div>
       </div>
     </section>
+    <!-- altre due tessere -->
     <section id="padding-bottom" class="tessere">
       <div class="card">
         <div class="scheda">
           <h1>Tenderhearts</h1>
           <span>Class name</span>
+          <div class="eta">
+            <div>
+              <p>3-4</p>
+              <p>Years olds</p>
+            </div>
+            <div>
+              <p>15</p>
+              <p>Class size</p>
+            </div>
+          </div>
         </div>
         <div class="immagine">
           <img src="../assets/img/class_03-690x506.jpg" alt="" />
@@ -70,6 +92,16 @@
         <div class="scheda">
           <h1>Shining Stars</h1>
           <span>Class name</span>
+          <div class="eta">
+            <div>
+              <p>4-5</p>
+              <p>Years olds</p>
+            </div>
+            <div>
+              <p>20</p>
+              <p>Class size</p>
+            </div>
+          </div>
         </div>
         <div class="immagine">
           <img src="../assets/img/class_04-690x506.jpg" alt="" />
@@ -208,7 +240,7 @@ export default {
 }
 .card {
   display: flex;
-  //   flex-wrap: wrap;
+  width: 50%;
 }
 .tessere .card .scheda {
   background-color: #56509f;
@@ -244,6 +276,8 @@ export default {
 .eta {
   display: flex;
   text-align: center;
+  padding-top: 30px;
+  font-size: 0.9em;
 }
 .eta div {
   flex-basis: 50%;

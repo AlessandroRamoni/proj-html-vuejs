@@ -22,6 +22,7 @@
       </div>
     </section>
     <section id="cards">
+      <!-- prima riga -->
       <div class="contenitore-cards">
         <div class="card">
           <div id="card-sinistra">
@@ -44,7 +45,7 @@
           </div>
         </div>
         <div class="card">
-          <div>
+          <div id="card-sinistra">
             <img src="../assets/img/team_03.jpg" alt="" />
             <p>Katie Willmore</p>
             <span>Assistant Teacher</span>
@@ -64,6 +65,7 @@
           </div>
         </div>
       </div>
+      <!-- seconda riga -->
       <div class="contenitore-cards">
         <div class="card">
           <div id="card-sinistra">
@@ -86,7 +88,7 @@
           </div>
         </div>
         <div class="card">
-          <div>
+          <div id="card-sinistra">
             <img src="../assets/img/team_01.jpg" alt="" />
             <p>Angela Lynn</p>
             <span>Teacher</span>
@@ -177,13 +179,19 @@ export default {
   padding-bottom: 30px;
 }
 
+.card #card-sinistra p,
+.card #card-destra p {
+  font-size: 1em;
+  padding-top: 5px;
+}
+
 .card div p {
   font-size: 0.8em;
   color: #4e489b;
 }
 .card div span {
-  font-size: 0.6em;
-  color: #4e489b;
+  font-size: 0.7em;
+  color: #8e8e8e;
 }
 
 .card div:first-child {

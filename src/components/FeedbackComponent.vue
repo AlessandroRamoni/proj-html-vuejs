@@ -70,10 +70,22 @@ export default {
     height: 10px;
     border: 1.5px solid rgb(255, 255, 255);
     margin-right: 10px;
+    cursor: pointer;
     .bottoni:first-child {
       position: absolute;
       top: 20px;
       left: 20px;
+    }
+  }
+  .bottoni:hover {
+    animation: up 1s linear;
+    @keyframes up {
+      from {
+        transform: translate(0, 0);
+      }
+      to {
+        transform: translate(0px, -20px);
+      }
     }
   }
 }

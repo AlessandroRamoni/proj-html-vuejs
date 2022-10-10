@@ -16,8 +16,8 @@ export default {
 <style scoped lang="scss">
 #contenitore {
   display: flex;
-}
-#contenitore img {
-  max-width: 25%;
+  img {
+    max-width: 25%;
+  }
 }
 </style>

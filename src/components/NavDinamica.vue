@@ -2,7 +2,7 @@
   <header>
     <div id="contenitore">
       <div id="logo">
-        <img src="../assets/img/logo.png" alt="" />
+        <a href="#top-up"><img src="../assets/img/logo.png" alt="" /></a>
       </div>
       <div id="contenitore-icone">
         <CardComponent
@@ -44,10 +44,10 @@ export default {
   max-width: 800px;
   display: flex;
   justify-content: space-between;
-}
-#contenitore-icone {
-  display: flex;
-  justify-content: flex-end;
-  gap: 20px;
+  #contenitore-icone {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+  }
 }
 </style>

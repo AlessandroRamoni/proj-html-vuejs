@@ -6,6 +6,9 @@
       </div>
     </div>
     <p>© Fable - Children Kindergarten WordPress Theme by QuanticaLabs</p>
+    <button id="top-up">
+      <img src="../assets/img/go_to_top.png" alt="" />
+    </button>
   </nav>
 </template>
 
@@ -30,9 +33,23 @@ export default {
   width: 40px;
   height: 40px;
 }
+
+nav {
+  position: relative;
+}
 nav p {
   text-align: center;
   padding: 30px 0px;
   color: #999594;
+}
+button {
+  background-color: #9b9b9b;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  scroll-behavior: smooth;
 }
 </style>

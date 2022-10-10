@@ -12,6 +12,11 @@
         <button><a href="#">LEARN MORE ></a></button>
       </div>
     </div>
+    <div id="contenitore-bottoni">
+      <button class="bottoni"></button>
+      <button class="bottoni"></button>
+      <button class="bottoni"></button>
+    </div>
   </header>
 </template>
 
@@ -68,6 +73,24 @@ export default {
       padding: 10px;
       font-size: 0.8em;
     }
+  }
+}
+#contenitore-bottoni {
+  position: absolute;
+  bottom: 160px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  .bottoni {
+    width: 30px;
+    height: 10px;
+    margin-right: 10px;
+    border: 1.5px solid #f74e00;
+    position: relative;
+  }
+  .bottoni:last-child {
+    position: absolute;
+    top: -2px;
+    left: 80px;
   }
 }
 </style>

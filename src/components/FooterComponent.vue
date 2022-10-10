@@ -195,7 +195,7 @@ footer {
     gap: 10px;
   }
   .contenitore-immagine {
-    width: 100px;
+    width: 120px;
     img {
       width: 100%;
       display: block;

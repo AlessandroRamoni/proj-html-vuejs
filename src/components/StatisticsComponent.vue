@@ -22,6 +22,14 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
     </div>
+    <div id="contenitore-bottoni">
+      <button class="bottoni"></button>
+      <button class="bottoni"></button>
+      <button class="bottoni"></button>
+      <button class="bottoni"></button>
+      <button class="bottoni"></button>
+      <button class="bottoni"></button>
+    </div>
   </div>
 </template>
 
@@ -37,7 +45,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 300px;
+  height: 350px;
   #contenitore {
     display: flex;
     align-items: center;
@@ -51,7 +59,7 @@ export default {
     div {
       border: 1px solid #ffffff;
       border-radius: 50%;
-      padding: 20px;
+      padding: 20px 20px 20px 17px;
       font-size: 1.7em;
       font-weight: 100;
       width: 100px;
@@ -66,6 +74,24 @@ export default {
     p {
       padding-top: 20px;
       font-size: 0.8em;
+    }
+  }
+}
+
+#contenitore-bottoni {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  position: relative;
+  .bottoni {
+    width: 30px;
+    height: 10px;
+    border: 1.5px solid rgb(255, 255, 255);
+    margin-right: 10px;
+    .bottoni:first-child {
+      position: absolute;
+      top: 20px;
+      left: 20px;
     }
   }
 }

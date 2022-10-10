@@ -1,5 +1,5 @@
 <template>
-  <div id="container">
+  <div id="contenitore">
     <section id="titolo">
       <div id="welcome">
         <h1>Welcome to Fable</h1>
@@ -104,7 +104,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-#container {
+#contenitore {
   padding-top: 50px;
 }
 #welcome {
@@ -114,12 +114,12 @@ export default {
 #welcome img {
   padding-top: 20px;
 }
-#container #titolo #welcome h1 {
+#contenitore #titolo #welcome h1 {
   text-align: center;
   color: #4e489b;
   font-size: 2.4em;
 }
-#container #titolo #welcome p {
+#contenitore #titolo #welcome p {
   font-size: 0.95em;
   text-align: center;
   color: #acacac;
@@ -185,6 +185,7 @@ s #bell {
   background-color: #f5f5f5;
   #mission {
     margin-left: 15px;
+    border-bottom: 2px solid #dfdfdf;
   }
   > p {
     font-size: 1.4em;
@@ -215,22 +216,20 @@ s #bell {
   #right {
     font-size: 0.7em;
   }
-  //   .orizzontale {
-  //     display: flex;
-  //   }
-  //   .orizzontale div h3 {
-  //     color: #56509f;
-  //   }
 }
 #overview {
   background-color: #fe6500;
   color: #f5f5f5;
-  padding: 5px;
+  padding: 12px 20px;
+  font-size: 0.8em;
+  cursor: pointer;
 }
 #mission {
   background-color: #f5f5f5;
   color: #554f4c;
-  padding: 5px;
+  padding: 12px 20px;
+  font-size: 0.8em;
+  cursor: pointer;
 }
 #destra {
   flex-basis: 50%;

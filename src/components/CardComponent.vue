@@ -11,7 +11,6 @@
 export default {
   name: "CardComponent",
   props: {
-    identificativo: Number,
     nome: String,
     immagine: String,
   },
@@ -42,11 +41,12 @@ export default {
   p {
     color: #ffffff;
   }
-}
-#contenitore-card:hover img {
-  background-image: url(../assets/img/home-2.png);
-  object-position: 30px 30px;
-  width: 32px;
-  height: 32px;
+  // img {
+  //   background-image: url(../assets/img/home-2.png);
+  //   width: 32px;
+  //   height: 32px;
+  //   object-position: -30px -30px;
+  //   object-fit: cover;
+  // }
 }
 </style>

@@ -27,21 +27,24 @@ export default {
   background-size: contain;
   height: 400px;
   #immagini {
-    display: flex;
-    justify-content: center;
     padding-top: 270px;
-    align-items: baseline;
     :first-child {
-      margin-left: 100px;
+      float: left;
+      margin-left: 550px;
     }
     :last-child {
-      margin-left: 200px;
-      width: 100px;
-      height: 65px;
+      float: right;
+      margin-right: 200px;
+      width: 110px;
+      padding-top: 30px;
     }
     img {
       width: 150px;
-      // margin-left: 100px;
+    }
+    ::after {
+      clear: both;
+      display: table;
+      content: "";
     }
   }
 }

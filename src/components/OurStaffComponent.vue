@@ -26,7 +26,9 @@
       <div class="contenitore-cards">
         <div class="card">
           <div id="card-sinistra">
-            <img src="../assets/img/team_04.jpg" alt="" />
+            <div>
+              <img src="../assets/img/team_04.jpg" alt="" />
+            </div>
             <p>Ruth Richie</p>
             <span>Teacher</span>
           </div>
@@ -38,7 +40,7 @@
               swimming and bike riding in my free time.
             </p>
             <div class="icone">
-              <img src="../assets/img/pinterest.png" alt="" />
+              <img src="../assets/img/googleplus.png" alt="" />
               <img src="../assets/img/facebook.png" alt="" />
               <img src="../assets/img/pinterest.png" alt="" />
             </div>
@@ -46,7 +48,9 @@
         </div>
         <div class="card">
           <div id="card-sinistra">
-            <img src="../assets/img/team_03.jpg" alt="" />
+            <div>
+              <img src="../assets/img/team_03.jpg" alt="" />
+            </div>
             <p>Katie Willmore</p>
             <span>Assistant Teacher</span>
           </div>
@@ -58,9 +62,9 @@
               children’s learning experience fun.
             </p>
             <div class="icone">
-              <img src="../assets/img/pinterest.png" alt="" />
-              <img src="../assets/img/facebook.png" alt="" />
-              <img src="../assets/img/pinterest.png" alt="" />
+              <img src="../assets/img/dribbble.png" alt="" />
+              <img src="../assets/img/stumbleupon.png" alt="" />
+              <img src="../assets/img/instagram.png" alt="" />
             </div>
           </div>
         </div>
@@ -69,7 +73,9 @@
       <div class="contenitore-cards">
         <div class="card">
           <div id="card-sinistra">
-            <img src="../assets/img/team_02.jpg" alt="" />
+            <div>
+              <img src="../assets/img/team_02.jpg" alt="" />
+            </div>
             <p>Angelica Watson</p>
             <span>Lead Teacher</span>
           </div>
@@ -81,15 +87,17 @@
               kindergarten teacher since 2002.
             </p>
             <div class="icone">
-              <img src="../assets/img/pinterest.png" alt="" />
-              <img src="../assets/img/facebook.png" alt="" />
-              <img src="../assets/img/pinterest.png" alt="" />
+              <img src="../assets/img/bing.png" alt="" />
+              <img src="../assets/img/skype.png" alt="" />
+              <img src="../assets/img/linkedin.png" alt="" />
             </div>
           </div>
         </div>
         <div class="card">
           <div id="card-sinistra">
-            <img src="../assets/img/team_01.jpg" alt="" />
+            <div>
+              <img src="../assets/img/team_01.jpg" alt="" />
+            </div>
             <p>Angela Lynn</p>
             <span>Teacher</span>
           </div>
@@ -101,9 +109,9 @@
               is my second year at Fable.
             </p>
             <div class="icone">
-              <img src="../assets/img/pinterest.png" alt="" />
-              <img src="../assets/img/facebook.png" alt="" />
-              <img src="../assets/img/pinterest.png" alt="" />
+              <img src="../assets/img/youtube.png" alt="" />
+              <img src="../assets/img/twitter.png" alt="" />
+              <img src="../assets/img/googleplus.png" alt="" />
             </div>
           </div>
         </div>
@@ -168,6 +176,10 @@ export default {
   align-items: end;
 }
 
+#cards .contenitore-cards .card #card-sinistra div {
+  width: 180px;
+}
+
 #cards .contenitore-cards .card img {
   width: 100%;
   display: block;
@@ -182,12 +194,18 @@ export default {
 .card #card-sinistra p,
 .card #card-destra p {
   font-size: 1em;
-  padding-top: 5px;
+  color: #4e489b;
+}
+
+.card #card-sinistra span,
+.card #card-destra span {
+  font-size: 0.8em;
+  color: #8e8e8e;
 }
 
 .card div p {
   font-size: 0.8em;
-  color: #4e489b;
+  color: #8e8e8e;
 }
 .card div span {
   font-size: 0.7em;

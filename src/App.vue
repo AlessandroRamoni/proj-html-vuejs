@@ -3,7 +3,6 @@
     <NavDinamica :cards="immagini" />
     <HeaderComponent />
     <MainComponent />
-    <!-- <CaroselloComponent :cards="fotografie" /> -->
     <StatisticsComponent />
     <OurClassesComponent />
     <BambiniComponent />
@@ -33,11 +32,9 @@ import AddGoogleMap from "@/components/AddGoogleMap.vue";
 import ContactComponent from "@/components/ContactComponent.vue";
 import FooterComponent from "@/components/FooterComponent.vue";
 import FooterNavComponent from "@/components/FooterNavComponent.vue";
-// import CaroselloComponent from "@/components/CaroselloComponent.vue";
 
 import { immagini } from "../src/data";
 import { icone } from "../src/data";
-// import { fotografie } from "../src/data";
 
 export default {
   name: "App",
@@ -45,7 +42,6 @@ export default {
     return {
       immagini,
       icone,
-      // fotografie,
     };
   },
   components: {
@@ -63,7 +59,6 @@ export default {
     ContactComponent,
     FooterComponent,
     FooterNavComponent,
-    // CaroselloComponent,
   },
 };
 </script>
@@ -71,9 +66,6 @@ export default {
 <style lang="scss">
 @import "@/assets/style/standard.scss";
 @import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Open+Sans&display=swap");
-@mixin padding-top {
-  padding-top: 50px;
-}
 #app {
   font-family: "Open Sans", sans-serif;
 }

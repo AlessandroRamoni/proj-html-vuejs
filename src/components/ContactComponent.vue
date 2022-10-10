@@ -120,7 +120,7 @@ a {
 }
 #contenitore-form-dx {
   width: 50%;
-  height: 139px;
+  height: 138px;
   input {
     border: 2px solid #c5c3c3;
     width: 100%;

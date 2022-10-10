@@ -224,6 +224,7 @@ $grigio-testo: #acacac;
   display: flex;
   width: 40px;
   gap: 5px;
+  cursor: pointer;
 }
 .icone img {
   background-color: $arancione;

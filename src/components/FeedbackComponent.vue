@@ -7,6 +7,14 @@
     </p>
     <hr />
     <span>Joe R. Hamblen</span>
+    <div id="contenitore-bottoni">
+      <button class="bottoni"></button>
+      <button class="bottoni"></button>
+      <button class="bottoni"></button>
+      <button class="bottoni"></button>
+      <button class="bottoni"></button>
+      <button class="bottoni"></button>
+    </div>
   </div>
 </template>
 
@@ -22,7 +30,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 300px;
+  height: 350px;
   text-align: center;
   color: #ffffff;
   img {
@@ -49,5 +57,22 @@ export default {
 }
 #contenitore span {
   padding-top: 20px;
+}
+#contenitore-bottoni {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  position: relative;
+  .bottoni {
+    width: 30px;
+    height: 10px;
+    border: 1.5px solid rgb(255, 255, 255);
+    margin-right: 10px;
+    .bottoni:first-child {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+  }
 }
 </style>

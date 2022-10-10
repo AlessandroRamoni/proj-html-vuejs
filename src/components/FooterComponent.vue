@@ -112,6 +112,11 @@ export default {
 #contenitore {
   background-image: url(../assets/img/pattern.png);
   height: 400px;
+  hr {
+    border-top: 2px solid #dad6d6;
+    width: 25%;
+    margin-top: 10px;
+  }
 }
 footer {
   margin: 0 auto;

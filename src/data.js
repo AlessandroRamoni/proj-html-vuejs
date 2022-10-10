@@ -46,22 +46,22 @@ export const icone = [
       id: 2,
       nome: "Dribbble",
       immagine: "dribbble.png",
-    },
-    {
+  },
+  {
       id: 3,
       nome: "Envato",
       immagine: "envato.png",
-    },
-    {
+  },
+  {
         id: 4,
         nome: "Facebook",
         immagine: "facebook.png",
-      },
-      {
+  },
+  {
         id: 5,
         nome: "Twitter",
         immagine: "twitter.png",
-      }
+  }
 ]
 
 export const fotografie = [

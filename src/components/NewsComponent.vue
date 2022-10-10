@@ -94,6 +94,10 @@ export default {
   width: 33%;
   text-align: left;
   position: relative;
+  hr {
+    border-top: 2px solid #eceaea;
+    margin-top: 20px;
+  }
 }
 
 .card > * {

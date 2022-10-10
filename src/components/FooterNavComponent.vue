@@ -7,7 +7,7 @@
     </div>
     <p>© Fable - Children Kindergarten WordPress Theme by QuanticaLabs</p>
     <button id="top-up">
-      <img src="../assets/img/go_to_top.png" alt="" />
+      <a href="#top-up"><img src="../assets/img/go_to_top.png" alt="" /></a>
     </button>
   </nav>
 </template>
@@ -50,6 +50,5 @@ button {
   right: 20px;
   bottom: 20px;
   cursor: pointer;
-  scroll-behavior: smooth;
 }
 </style>

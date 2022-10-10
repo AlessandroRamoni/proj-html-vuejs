@@ -289,6 +289,10 @@ export default {
   padding-top: 5px;
 }
 
+.eta div:last-child {
+  border-left: 2px solid rgb(216, 207, 207);
+}
+
 .eta div p:first-child {
   font-weight: 600;
 }

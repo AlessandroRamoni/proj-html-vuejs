@@ -1,8 +1,8 @@
 <template>
-  <header>
+  <header id="top-up">
     <div id="contenitore">
       <div id="logo">
-        <a href="#top-up"><img src="../assets/img/logo.png" alt="" /></a>
+        <img src="../assets/img/logo.png" alt="" />
       </div>
       <div id="contenitore-icone">
         <CardComponent

@@ -32,7 +32,7 @@ export default {
   background-size: contain;
   height: 400px;
   #immagini {
-    padding-top: 270px;
+    padding-top: 250px;
     :first-child {
       float: left;
       margin-left: 550px;
@@ -40,11 +40,11 @@ export default {
     :last-child {
       float: right;
       margin-right: 200px;
-      width: 110px;
+      width: 120px;
       padding-top: 30px;
     }
     img {
-      width: 150px;
+      width: 170px;
     }
     ::after {
       clear: both;

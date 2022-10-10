@@ -33,6 +33,7 @@ export default {
   height: 350px;
   text-align: center;
   color: #ffffff;
+  position: relative;
   img {
     border: 2px solid #ffffff;
     padding: 5px;
@@ -43,8 +44,9 @@ export default {
     object-position: center;
   }
   hr {
-    color: red;
-    height: 10px;
+    border-top: 1px solid #ffffff;
+    width: 50px;
+    margin-left: 48%;
   }
   p {
     margin: 0 auto;

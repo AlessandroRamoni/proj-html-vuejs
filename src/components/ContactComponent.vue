@@ -7,7 +7,7 @@
         <img src="../assets/img/header_divider.png" alt="" />
       </div>
     </section>
-    <section class="sfere">
+    <section class="contact">
       <div>
         <img src="../assets/img/envelope (1).png" alt="" />
         <h4>Postal Address</h4>
@@ -74,7 +74,7 @@ export default {
   text-align: center;
   color: #acacac;
 }
-.sfere {
+.contact {
   display: flex;
   gap: 30px;
   margin: 0 auto;
@@ -82,12 +82,12 @@ export default {
   padding-top: 50px;
   text-align: center;
 }
-.sfere h4 {
+.contact h4 {
   color: #56509f;
   padding-top: 10px;
   font-size: 1.4em;
 }
-.sfere p {
+.contact p {
   color: #acacac;
   font-size: 0.8em;
 }

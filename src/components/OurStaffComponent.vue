@@ -127,15 +127,18 @@ export default {
 </script>
 
 <style scoped lang="scss">
+$arancione: #fe6500;
+$viola: #56509f;
+$grigio-testo: #acacac;
 #contenitore #welcome h1 {
   text-align: center;
-  color: #4e489b;
+  color: $viola;
   font-size: 2.4em;
 }
 #contenitore #welcome p {
   font-size: 0.95em;
   text-align: center;
-  color: #acacac;
+  color: $grigio-testo;
 }
 #welcome {
   padding-top: 30px;
@@ -154,11 +157,11 @@ export default {
     flex-basis: 50%;
   }
   #sinistra {
-    color: #4e489b;
+    color: $viola;
     font-size: 1.3em;
   }
   #destra {
-    color: #8e8e8e;
+    color: $grigio-testo;
     font-size: 0.9em;
   }
 }
@@ -194,22 +197,22 @@ export default {
 .card #card-sinistra p,
 .card #card-destra p {
   font-size: 1em;
-  color: #4e489b;
+  color: $viola;
 }
 
 .card #card-sinistra span,
 .card #card-destra span {
   font-size: 0.8em;
-  color: #8e8e8e;
+  color: $grigio-testo;
 }
 
 .card div p {
   font-size: 0.8em;
-  color: #8e8e8e;
+  color: $grigio-testo;
 }
 .card div span {
   font-size: 0.7em;
-  color: #8e8e8e;
+  color: $grigio-testo;
 }
 
 .card div:first-child {
@@ -223,7 +226,7 @@ export default {
   gap: 5px;
 }
 .icone img {
-  background-color: #fe6500;
+  background-color: $arancione;
 }
 
 .card-destra {
@@ -233,7 +236,7 @@ export default {
 #cards .contenitore-cards .card .card-destra .quote {
   width: 110px;
   padding: 5px 10px 5px 70px;
-  border: 2px solid #fe6500;
+  border: 2px solid $arancione;
   position: absolute;
   top: -70px;
   left: -50px;

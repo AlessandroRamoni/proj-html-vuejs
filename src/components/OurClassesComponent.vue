@@ -190,6 +190,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+$arancione: #fe6500;
+$viola: #56509f;
+$grigio-testo: #acacac;
 #titolo {
   padding-top: 30px;
   margin: 0 auto;
@@ -204,7 +207,7 @@ export default {
 
 #contenitore #titolo #welcome h1 {
   text-align: center;
-  color: #4e489b;
+  color: $viola;
   font-size: 2.4em;
 }
 #contenitore #titolo #welcome p {
@@ -223,11 +226,11 @@ export default {
     flex-basis: 50%;
   }
   #sinistra {
-    color: #4e489b;
+    color: $viola;
     font-size: 1.3em;
   }
   #destra {
-    color: #8e8e8e;
+    color: $grigio-testo;
     font-size: 0.9em;
   }
 }
@@ -243,7 +246,7 @@ export default {
   width: 50%;
 }
 .tessere .card .scheda {
-  background-color: #56509f;
+  background-color: $viola;
 }
 .immagine {
   position: relative;
@@ -263,7 +266,7 @@ export default {
   display: block;
 }
 .immagine button {
-  background-color: #fe6500;
+  background-color: $arancione;
   color: #ffffff;
   padding: 10px;
   font-weight: 800;
@@ -314,11 +317,11 @@ export default {
   width: 50%;
 }
 #contenitore-goals-sinistra p:first-child {
-  color: #4e489b;
+  color: $viola;
   font-size: 1.3em;
 }
 #contenitore-goals-sinistra p:nth-of-type(2) {
-  color: #8e8e8e;
+  color: $grigio-testo;
   font-size: 0.8em;
   padding-top: 20px;
 }
@@ -332,7 +335,7 @@ export default {
 
 #contenitore-goals-sinistra ul li span {
   font-size: 0.8em;
-  color: #8e8e8e;
+  color: $grigio-testo;
   padding-left: 10px;
 }
 #contenitore-goals-destra {
@@ -349,11 +352,11 @@ export default {
 }
 .mission h3 {
   font-size: 1.3em;
-  color: #4e489b;
+  color: $viola;
 }
 .mission p {
   font-size: 0.8em;
-  color: #8e8e8e;
+  color: $grigio-testo;
   padding-top: 10px;
 }
 .mission div {

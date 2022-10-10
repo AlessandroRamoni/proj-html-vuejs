@@ -71,6 +71,9 @@ export default {
 <style lang="scss">
 @import "@/assets/style/standard.scss";
 @import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Open+Sans&display=swap");
+@mixin padding-top {
+  padding-top: 50px;
+}
 #app {
   font-family: "Open Sans", sans-serif;
 }

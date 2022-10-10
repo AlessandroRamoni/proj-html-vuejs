@@ -65,6 +65,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+$arancione: #fe6500;
+$viola: #56509f;
+$grigio-testo: #acacac;
+$bianco: #ffffff;
 #contenitore {
   padding-top: 50px;
   text-align: center;
@@ -74,13 +78,13 @@ export default {
 }
 #contenitore #titolo #welcome h1 {
   text-align: center;
-  color: #4e489b;
+  color: $viola;
   font-size: 2.4em;
 }
 #contenitore #titolo #welcome p {
   font-size: 1em;
   text-align: center;
-  color: #acacac;
+  color: $grigio-testo;
   padding-top: 10px;
 }
 #contenitore-cards {
@@ -106,22 +110,22 @@ export default {
 
 #contenitore-cards .card h4 {
   font-size: 1.1em;
-  color: #4e489b;
+  color: $viola;
   font-weight: 600;
 }
 #contenitore-cards .card p {
   font-size: 1em;
-  color: #6b6969;
+  color: $grigio-testo;
 }
 #contenitore-cards .card span {
-  color: #acacac;
+  color: $grigio-testo;
   margin-left: 15px;
   font-size: 0.8em;
   font-weight: 600;
 }
 .numero {
-  color: #ffffff;
-  background-color: #fe6500;
+  color: $bianco;
+  background-color: $arancione;
   width: 40px;
   height: 40px;
   line-height: 0px;
@@ -134,8 +138,8 @@ export default {
   margin-left: 0 !important;
 }
 button {
-  color: #ffffff;
-  background-color: #fe6500;
+  color: $bianco;
+  background-color: $arancione;
   padding: 12px;
   font-size: 0.7em;
   font-weight: 600;

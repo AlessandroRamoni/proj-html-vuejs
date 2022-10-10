@@ -14,10 +14,11 @@ export default {
 </script>
 
 <style scoped lang="scss">
+$bianco: #ffffff;
 #barra {
   background-image: url(../assets/img/pattern.png);
   height: 80px;
-  color: #ffffff;
+  color: $bianco;
   div {
     margin: 0 auto;
     max-width: 800px;
@@ -26,7 +27,7 @@ export default {
     align-items: baseline;
     padding-top: 18px;
     button {
-      border: 2px solid #ffffff;
+      border: 2px solid $bianco;
       padding: 10px;
       font-size: 0.8em;
     }

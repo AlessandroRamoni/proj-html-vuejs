@@ -18,6 +18,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+$arancione: #fe6500;
+$viola: #56509f;
+$grigio-testo: #acacac;
+$bianco: #ffffff;
 #contenitore-card {
   display: flex;
   flex-direction: column;
@@ -25,7 +29,7 @@ export default {
   padding: 10px;
   cursor: pointer;
   p {
-    color: #4e489b;
+    color: $viola;
     padding-top: 5px;
     font-size: 0.8em;
   }
@@ -33,20 +37,13 @@ export default {
 #contenitore #contenitore-card img {
   width: 25px;
   padding-top: 10px;
-  color: #4e489b;
+  color: $viola;
 }
 
 #contenitore-card:hover {
-  background-color: #fd6500;
+  background-color: $arancione;
   p {
-    color: #ffffff;
+    color: $bianco;
   }
-  // img {
-  //   background-image: url(../assets/img/home-2.png);
-  //   width: 32px;
-  //   height: 32px;
-  //   object-position: -30px -30px;
-  //   object-fit: cover;
-  // }
 }
 </style>

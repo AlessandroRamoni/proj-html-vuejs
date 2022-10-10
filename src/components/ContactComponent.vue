@@ -57,6 +57,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+$arancione: #fe6500;
+$viola: #56509f;
+$grigio-testo: #acacac;
+$bianco: #ffffff;
 #contenitore {
   text-align: center;
   padding-bottom: 50px;
@@ -66,13 +70,13 @@ export default {
 }
 #contenitore #titolo #welcome h1 {
   text-align: center;
-  color: #4e489b;
+  color: $viola;
   font-size: 2.4em;
 }
 #contenitore #titolo #welcome p {
   font-size: 1em;
   text-align: center;
-  color: #acacac;
+  color: $grigio-testo;
 }
 .contact {
   display: flex;
@@ -88,11 +92,11 @@ export default {
   font-size: 1.4em;
 }
 .contact p {
-  color: #acacac;
+  color: $grigio-testo;
   font-size: 0.8em;
 }
 a {
-  color: #4e489b;
+  color: $viola;
   text-decoration: underline;
 }
 
@@ -133,14 +137,14 @@ input::placeholder {
   left: 5px;
 }
 button {
-  background-color: #fe6500;
+  background-color: $arancione;
   padding: 12px;
   font-size: 0.7em;
   font-weight: 600;
   margin-top: 30px;
   a {
     text-decoration: none;
-    color: #ffffff;
+    color: $bianco;
   }
 }
 </style>

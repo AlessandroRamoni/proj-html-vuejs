@@ -29,7 +29,6 @@
           est magna etos interdum vitae est.
         </p>
       </div>
-
       <div class="bolla">
         <div class="contenitore-bolla">
           <img src="../assets/img/globe_alt.png" alt="" />
@@ -40,7 +39,6 @@
           a dosis luctus novum est praesent.
         </p>
       </div>
-
       <div class="bolla">
         <div class="contenitore-bolla">
           <img id="bell" src="../assets/img/bell_alt.png" alt="" />
@@ -104,6 +102,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+$arancione: #fe6500;
+$viola: #56509f;
+$grigio-testo: #acacac;
 #contenitore {
   padding-top: 50px;
 }
@@ -116,13 +117,13 @@ export default {
 }
 #contenitore #titolo #welcome h1 {
   text-align: center;
-  color: #4e489b;
+  color: $viola;
   font-size: 2.4em;
 }
 #contenitore #titolo #welcome p {
   font-size: 0.95em;
   text-align: center;
-  color: #acacac;
+  color: $grigio-testo;
 }
 .sfere {
   display: flex;
@@ -137,7 +138,7 @@ export default {
   height: 120px;
 }
 .sfere .bolla img {
-  background-color: #fe6500;
+  background-color: $arancione;
   border-radius: 50%;
   padding: 20px;
   width: 100%;
@@ -155,12 +156,12 @@ export default {
 
 .sfere .bolla h4,
 p {
-  color: #56509f;
+  color: $viola;
   padding-top: 10px;
 }
 #stroller,
-s #bell {
-  background-color: #56509f;
+#bell {
+  background-color: $viola;
 }
 .sfere .bolla {
   display: flex;
@@ -204,11 +205,11 @@ s #bell {
   }
   .orizzontale #right h3 {
     font-size: 1.8em;
-    color: #4e489b;
+    color: $viola;
   }
 
   .orizzontale img {
-    background-color: #fe6500;
+    background-color: $arancione;
     border-radius: 50%;
     flex-basis: 100px;
     object-fit: none;
@@ -218,7 +219,7 @@ s #bell {
   }
 }
 #overview {
-  background-color: #fe6500;
+  background-color: $arancione;
   color: #f5f5f5;
   padding: 12px 20px;
   font-size: 0.8em;

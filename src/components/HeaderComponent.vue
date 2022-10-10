@@ -27,6 +27,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+$bianco: #ffffff;
 #contenitore-immagini {
   background-image: url(../assets/img/slider_slide3_background.png);
   background-size: contain;
@@ -56,7 +57,7 @@ export default {
 #barra {
   background-image: url(../assets/img/pattern.png);
   height: 80px;
-  color: #ffffff;
+  color: $bianco;
   div {
     margin: 0 auto;
     max-width: 800px;
@@ -69,7 +70,7 @@ export default {
       font-weight: 100;
     }
     button {
-      border: 2px solid #ffffff;
+      border: 2px solid $bianco;
       padding: 10px;
       font-size: 0.8em;
     }
